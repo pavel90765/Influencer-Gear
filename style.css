@@ -8,16 +8,6 @@
     common style
   -------------*/
 
-  @keyframes move {
-    0%{
-        scale:0.90;
-        transform: rotate(10deg);
-    }
-    100%{
-        scale: 1;
-        transform: rotate(-10deg);
-    }
-  }
 
   body{
   font-family: "Roboto", sans-serif;
@@ -48,7 +38,7 @@
 
  .web-head{
     color: var(--nav-color);
-    font-size: 19px;
+    font-size: 29px;
  }
 
  nav>ul{
@@ -59,7 +49,7 @@
  nav>ul>li{
     margin-right: 20px;
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 25px;
     cursor: pointer;
  }
 
@@ -79,11 +69,12 @@
  }
 
  .section-info h1{
-    font-size: 28px;
+    font-size: 38px;
  }
 
  .section-info p{
     font-family: sans-serif;
+    font-size: 20px;
     font-weight: 400;
  }
 
@@ -94,23 +85,4 @@
     text-decoration: none;
     color:black;
     margin-top: 50px;
- }
-
- /* section-img */
-
- .section-img #bg{
-    width: 500px;
-    height:350px;
- }
-
- .section-img #cam{
-    position: absolute;
-    right:13%;
-    bottom: -25%;
-    width: 400px;
-    height: 300px;
- }
-
- .section-img:hover #cam{
-    animation: move 3s 1 linear;
  }
