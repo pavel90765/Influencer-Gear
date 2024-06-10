@@ -25,6 +25,7 @@ section{
 
 :root{
     --nav-color:rgb(51, 49, 49) ;
+    --box:1px solid black;
 }
 
 /*-------------------
@@ -132,5 +133,20 @@ section{
    display: grid;
    grid-template-columns: repeat(3,1fr);
    grid-column-gap: 30px;
-   grid-row-gap: 30px;
+ }
+
+ .product{
+   /* border:var(--box); */
+   Padding:10px;
+   margin:15px 10px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 4px 4px rgb(167, 161, 161);
+   border-radius: 10px;
+   cursor: pointer;
+   
+ }
+
+ .pr-im img{
+   width: 100%;
+   border-radius: 10px;
  }
