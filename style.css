@@ -13,6 +13,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin: 0;
 }
 
 
@@ -35,7 +36,9 @@ section{
 
  header{
     margin: 60px 50px 30px 50px;
+    padding-left: 50px;
  }
+
 
  .head{
     display: flex;
@@ -236,4 +239,41 @@ section{
        Main-design-ends-here
 -----------------------------------------*/
 
+/* Footer-design */
 
+.footer{
+   height: 190px;
+   background-color: rgb(21, 21, 59);
+   padding: 20px;
+   text-align: center;
+   color: white;
+}
+
+.copyrght{
+   margin-top: 30px;
+}
+
+.copyrght h2{
+   font-size: 27px;
+}
+
+.copyrght p{
+   font-size: 19px;
+}
+
+.social-links{
+   display: flex;
+   justify-content: center;
+}
+
+.social-media{
+   font-size: 24px;
+   margin-right: 20px;
+
+}
+
+.social-media a{
+   color: white;
+}
+
+/* Footer-design-end */
