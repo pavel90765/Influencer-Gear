@@ -8,6 +8,18 @@
     common style
   -------------*/
 
+  @keyframes ride {
+   0%{
+      opacity: 0;
+      clip-path: inset(100% 100% 0 0);
+   }
+   100%{
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+   }
+   
+  }
+
 
   body{
   font-family: "Roboto", sans-serif;
@@ -120,6 +132,9 @@ section{
 
  .logo{
    margin:30px;
+   animation: ride linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%
  }
 
  /* Third-section-design */
@@ -152,7 +167,6 @@ section{
    box-shadow: 1px 1px 4px 4px rgb(167, 161, 161);
    border-radius: 10px;
    cursor: pointer;
-   
  }
 
  .pr-im img{
