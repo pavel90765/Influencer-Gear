@@ -198,3 +198,42 @@ section{
     text-decoration: none;
    color: hotpink;
 }
+
+/* Final-section-design */
+
+.features{
+   display: flex;
+   margin-left: 60px;
+}
+
+.feature-dt{
+   margin-left: 50px;
+   text-align: justify;
+}
+
+.feature-dt h2{
+   font-size: 29px;
+}
+
+.feature-dt p{
+   padding-bottom: 20px;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 400;
+}
+
+.feature-dt a{
+    text-decoration: none;
+     color: black;
+     background-color:hotpink;
+     margin-top:0px;
+     padding: 10px 24px;
+     border-radius: 3px;
+     font-weight: 600;
+}
+
+/*---------------------------------------
+       Main-design-ends-here
+-----------------------------------------*/
+
+
