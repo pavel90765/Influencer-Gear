@@ -291,3 +291,129 @@ section{
 }
 
 /* Footer-design-end */
+
+
+/*---------------------------
+      Media-query-here
+ ---------------------------*/
+
+ @media only screen  and (max-width:688px){
+
+   body{
+      margin: 0;
+   }
+
+     /*------------- 
+     Header-design 
+     ---------------*/
+
+   header{
+      background-color: black;
+      margin: 0;
+   }
+
+   .web-head{
+      color: white;
+      padding:0;
+      font-size: 25px;
+      font-weight: 400;
+   }
+
+   .li2{
+      color: white;
+      padding: 5px;
+      margin-top: 10px;
+      font-size: 22px;
+      margin-left: 20px;
+   }
+
+   .li{
+      display: none;
+   }
+
+   /*-------------------
+    Main-content-design
+    -------------------*/
+
+    /* First-section */
+
+    .first-section{
+      margin-top:10px;
+    }
+
+    .section-detail{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section-info h1{
+      font-size: 23px;
+    }
+
+    .section-info p{
+      font-size: 15px;
+      padding-bottom: 20px;
+    }
+
+    .section-im{
+      margin-right: 170px;
+    }
+
+    .section-im> #cam{
+      position:absolute;
+      left:1%;
+      top:38%;
+      height: 250px;
+      width: 350px;
+    }
+    
+    #cam1{
+      display: none;
+    }
+
+    /* Second-section */
+
+    .logos{
+      margin-top: 350px;
+    }
+
+    .logo{
+      margin: 5px;
+    }
+
+    .logo img{
+      width: 56px;
+      height: 56px;
+    }
+
+    /* Third-section */
+
+    .third-section{
+      margin-left: 75px;
+    }
+
+    .section-title h2{
+      font-size: 20px;
+    }
+
+    .products{
+      display: grid;
+      grid-template-columns: repeat(1,350px);
+      justify-content: center;
+    }
+
+   
+
+    .see{
+   margin-top: 50px;
+   margin-left: 170px;
+ }
+
+   footer,.fourth-section{
+   display: none;
+   padding: 0;
+}
+
+ }
+   
