@@ -410,10 +410,32 @@ section{
    margin-left: 170px;
  }
 
-   footer,.fourth-section{
-   display: none;
+ /* Fourth-section */
+
+ .features{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0;
+ }
+
+ .feature-im img{
+   width: 90%;
+   margin: 0;
    padding: 0;
-}
+ }
+
+ .feature-dt{
+   margin-right: 50px;
+ }
+
+ .feature-dt h2{
+   font-size: 17px;
+ }
+
+ .feature-dt p{
+   font-size: 15px;
+ }
 
  }
    
